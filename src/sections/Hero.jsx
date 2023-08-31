@@ -47,7 +47,7 @@ function Hero() {
         />
       </div>
       <div>
-        {shoes.map((shoe, index) => (
+        {shoes.map((shoe) => (
           <div key={shoe}>ShoeCard</div>
         ))}
       </div>
